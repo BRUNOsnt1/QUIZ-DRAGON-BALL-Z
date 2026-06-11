@@ -1,0 +1,219 @@
+    caracter resposta
+		inteiro acertos = 0
+		inteiro erros = 0
+    cadeia nome , vamos 
+    real idade 
+		escreva("==================================================\n")
+  
+		escreva("             QUIZ DRAGON BALL Z                   \n")
+		escreva("    Desenvolvido por: Bruno,Salomao,joao e gulherme    \n")
+		escreva("==================================================\n")
+	
+
+
+
+escreva("qual o seu nome jogador ? ")
+leia(nome)
+
+
+escreva("qual sua idade  ?  ")
+leia(idade)
+  se (idade >= 12){
+escreva("seja bem vindo ", nome , " \n antes de iniciamos, o jogo possui 10 questoes responda escrevendo a letra que voce achar certo :) \n  vamos inicar  jogador == ", nome ,"==  sim ou nao :)? \n")
+ leia(vamos)
+ se (vamos  == "sim" ){
+
+
+escreva("1) Qual eh a raca guerreira de Goku e Vegeta?\n")
+		escreva("A) Namekuseijin\nB) Saiyajin\nC) Terraqueo\nD) Tsufurujin\n")
+		escreva("Resposta: ")
+		leia(resposta)
+		escolha(resposta)
+		{
+			caso 'B': caso 'b':
+				escreva("Resposta correta!\n\n")
+				acertos = acertos + 1
+				pare
+			caso contrario:
+				escreva("Resposta errada. A correta era a alternativa B.\n\n")
+				erros = erros + 1
+		}
+
+		escreva("2) Quantas Esferas do Dragao sao necessarias para invocar o Shenlong?\n")
+		escreva("A) 5\nB) 6\nC) 7\nD) 8\n")
+		escreva("Resposta: ")
+		leia(resposta)
+		escolha(resposta)
+		{
+			caso 'C': caso 'c':
+				escreva("Resposta correta!\n\n")
+				acertos = acertos + 1
+				pare
+			caso contrario:
+				escreva("Resposta errada. A correta era a alternativa C.\n\n")
+				erros = erros + 1
+		}
+
+		escreva("3) Quem eh o irmao biologico de Goku que chega a Terra no inicio do DBZ?\n")
+		escreva("A) Raditz\nB) Nappa\nC) Turles\nD) Bardock\n")
+		escreva("Resposta: ")
+		leia(resposta)
+		escolha(resposta)
+		{
+			caso 'A': caso 'a':
+				escreva("Resposta correta!\n\n")
+				acertos = acertos + 1
+				pare
+			caso contrario:
+				escreva("Resposta errada. A correta era a alternativa A.\n\n")
+				erros = erros + 1
+		}
+
+		escreva("4) Qual tecnica Goku aprendeu com o Senhor Kaioh para multiplicar sua forca?\n")
+		escreva("A) Kamehameha\nB) Kaioken\nC) Genki Dama\nD) Masenko\n")
+		escreva("Resposta: ")
+		leia(resposta)
+		escolha(resposta)
+		{
+			caso 'B': caso 'b':
+				escreva("Resposta correta!\n\n")
+				acertos = acertos + 1
+				pare
+			caso contrario:
+				escreva("Resposta errada. A correta era a alternativa B.\n\n")
+				erros = erros + 1
+		}
+
+		escreva("5) Quem derrotou definitivamente o vilao Cell nos Jogos do Cell?\n")
+		escreva("A) Goku\nB) Vegeta\nC) Gohan\nD) Trunks\n")
+		escreva("Resposta: ")
+		leia(resposta)
+		escolha(resposta)
+		{
+			caso 'C': caso 'c':
+				escreva("Resposta correta!\n\n")
+				acertos = acertos + 1
+				pare
+			caso contrario:
+				escreva("Resposta errada. A correta era a alternativa C.\n\n")
+				erros = erros + 1
+		}
+
+		escreva("6) Qual eh o nome da fusao entre Goku e Vegeta feita atraves dos brincos Potara?\n")
+		escreva("A) Gogeta\nB) Gotenks\nC) Vegito\nD) Goketa\n")
+		escreva("Resposta: ")
+		leia(resposta)
+		escolha(resposta)
+		{
+			caso 'C': caso 'c':
+				escreva("Resposta correta!\n\n")
+				acertos = acertos + 1
+				pare
+			caso contrario:
+				escreva("Resposta errada. A correta era a alternativa C.\n\n")
+				erros = erros + 1
+		}
+
+		escreva("7) De qual planeta vieram Piccolo e Kami-sama?\n")
+		escreva("A) Planeta Vegeta\nB) Namekusei\nC) Planeta Supremo\nD) Confeite\n")
+		escreva("Resposta: ")
+		leia(resposta)
+		escolha(resposta)
+		{
+			caso 'B': caso 'b':
+				escreva("Resposta correta!\n\n")
+				acertos = acertos + 1
+				pare
+			caso contrario:
+				escreva("Resposta errada. A correta era a alternativa B.\n\n")
+				erros = erros + 1
+		}
+
+		escreva("8) Qual androide desperta o poder Super Saiyajin 2 de Gohan ao ser destruido por Cell?\n")
+		escreva("A) Androide 16\nB) Androide 17\nC) Androide 18\nD) Androide 19\n")
+		escreva("Resposta: ")
+		leia(resposta)
+		escolha(resposta)
+		{
+			caso 'A': caso 'a':
+				escreva("Resposta correta!\n\n")
+				acertos = acertos + 1
+				pare
+			caso contrario:
+				escreva("Resposta errada. A correta era a alternativa A.\n\n")
+				erros = erros + 1
+		}
+
+		escreva("9) Quem libertou o terrivel Majin Boo de seu casulo?\n")
+		escreva("A) Freeza\nB) Babidi\nC) Bibidi\nD) Dabura\n")
+		escreva("Resposta: ")
+		leia(resposta)
+		escolha(resposta)
+		{
+			caso 'B': caso 'b':
+				escreva("Resposta correta!\n\n")
+				acertos = acertos + 1
+				pare
+			caso contrario:
+				escreva("Resposta errada. A correta era a alternativa B.\n\n")
+				erros = erros + 1
+		}
+
+		escreva("10) Quantos anos Trunks do Futuro viajou no tempo para alertar sobre os androides?\n")
+		escreva("A) 10 anos\nB) 15 anos\nC) 20 anos\nD) 3 anos\n")
+		escreva("Resposta: ")
+		leia(resposta)
+		escolha(resposta)
+		{
+			caso 'C': caso 'c':
+				escreva("Resposta correta!\n\n")
+				acertos = acertos + 1
+				pare
+			caso contrario:
+				escreva("Resposta errada. A correta era a alternativa C.\n\n")
+				erros = erros + 1
+		}
+
+		escreva("--------------------------------------------------\n")
+		escreva("                 FIM DO QUIZ!                     \n")
+		escreva("--------------------------------------------------\n")
+    escreva("jogador ",nome)
+		escreva("Total de acertos: ", acertos, "\n")
+		escreva("Total de erros: ", erros, "\n\n")
+
+		se (acertos == 10)
+		{
+			escreva("Status: Excelente! Nivel Super Saiyajin!\n")
+		}
+		senao se (acertos >= 7)
+		{
+			escreva("Status: Muito bom! Alto poder de luta.\n")
+		}
+		senao se (acertos >= 5)
+		{
+			escreva("Status: Regular. Precisa treinar mais.\n")
+		}
+		senao
+		{
+			escreva("Status: Fraco. Poder de luta baixo.\n")
+		}
+		
+		escreva("--------------------------------------------------\n")
+		escreva("Trabalho desenvolvido por Bruno Santos e Salomao.\n")
+		escreva("==================================================\n")
+	}senao
+  escreva("--------------------------------------------------\n")
+		escreva("                 FIM DO QUIZ!                     \n")
+    escreva("-------------obrigado por vir aqui------------")
+		escreva("--------------------------------------------------\n")
+ }senao 
+ escreva("voce nao tem idade suficiente para jogar ",nome )
+
+	
+		
+}
+
+  }
+}
+
+ 
